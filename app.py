@@ -46,7 +46,7 @@ hr {
 
 st.set_page_config(page_title="Anxiety Screener", layout="centered")
 
-st.title("🌿 Mental Wellness Check-In")
+st.title("🩺 Mental Wellness Check-In")
 
 st.markdown("""
 This app predicts your **anxiety level** based on your responses using a model trained on U.S. college Facebook users.
@@ -124,8 +124,6 @@ if st.button("🔍 Assess My Anxiety Level"):
 
         if prediction_proba is not None:
             st.write(f"Confidence in this assessment: **{prediction_proba:.2%}**")
-
-import streamlit as st
 
 st.header("Frequently Asked Questions (FAQ) and Information")
 
